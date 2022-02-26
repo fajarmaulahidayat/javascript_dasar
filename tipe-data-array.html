@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipe Data Array</title>
+</head>
+
+<body>
+    <script>
+        // index
+        let arrayKosong = [];
+
+        let arrayNama = ["Fajar", "Maula", "Hidayat"];
+
+        document.writeln(arrayNama);
+        console.info(arrayNama);
+
+        // Menambah data
+        const names = [];
+        names.push("Fajar");
+        names.push("Maula", "Hidayat");
+        names.push("Aifa", "Kode");
+
+        console.table(names);
+
+        console.info(names[0]);
+        console.info(names[1]);
+        console.info(names[2]);
+
+        names[0] = "AIFA";
+        names[1] = "Kode";
+
+        console.table(names);
+
+        delete names[3];
+
+        console.table(names);
+
+        names.push("Fajar MH");
+
+        console.table(names);
+
+        names[3] = "Diubah Lagi";
+        names.push(1, 2, 3, 4, 5);
+        names.push(["Fajar", "Maula", "Hidayat"]);
+
+        console.table(names);
+    </script>
+</body>
+
+</html>
