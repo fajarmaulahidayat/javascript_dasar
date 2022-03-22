@@ -45,3 +45,9 @@ Mempelajari :
 - For Loop
 - While Loop
 - Do While Loop
+- Break dan Continue
+- Label
+- For in
+- For off
+- With Statement
+- Function
