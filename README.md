@@ -51,3 +51,8 @@ Mempelajari :
 - For off
 - With Statement
 - Function
+- Function Parameter
+- Function Return Value
+- Function Return Optional Parameter
+- Function Return Default Parameter
+- Function Return Rest Parameter
