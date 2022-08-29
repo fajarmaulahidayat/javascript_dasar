@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Undefined</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <script>
-        let name;
+      let name;
 
-        if (name === undefined) {
-            alert("Undefined");
-        } else {
-            alert("Defined");
-        }
+      if (name === undefined) {
+        alert("Undefined");
+      } else {
+        alert("Defined");
+      }
 
-        // Undefined array value
-        const names = ["Fajar", "Maula", "Hidayat"];
-        delete names[0];
+      // Undefined array value
+      const names = ["Fajar", "Maula", "Hidayat"];
+      delete names[0];
 
-        if (names[2] === undefined) {
-            console.info("Array Undefined");
-        } else {
-            console.info("Array Defined");
-        }
+      if (names[2] === undefined) {
+        console.info("Array Undefined");
+      } else {
+        console.info("Array Defined");
+      }
 
-        // Undefined object property
-        const person = {};
+      // Undefined object property
+      const person = {};
 
-        if (person.name === undefined) {
-            console.info("Object Undefined");
-        } else {
-            console.info("Object Defined");
-        }
+      if (person.name === undefined) {
+        console.info("Object Undefined");
+      } else {
+        console.info("Object Defined");
+      }
     </script>
-</body>
-
+  </body>
 </html>

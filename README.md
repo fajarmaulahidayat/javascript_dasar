@@ -1,6 +1,6 @@
 # javascript_dasar
-JavaScript Dasar
 
+JavaScript Dasar
 
 ---
 
@@ -56,3 +56,20 @@ Mempelajari :
 - Function Return Optional Parameter
 - Function Return Default Parameter
 - Function Return Rest Parameter
+- Function sebagai Value
+- Anonymous Function (Variable dan Parameter)
+- Function dalam Function
+- Scope
+- Recursive Function
+- Function Generator
+- Arrow Function
+- Closure
+- Object Method
+- Kata Kunci this
+- Arrow Function di Object
+- Getter dan Setter
+- Masalah variable var
+- Destructuring
+- Strict Mode
+- Debugger
+- Materi selanjutnya

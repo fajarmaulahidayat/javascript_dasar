@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Konversi String dan Number</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <script>
-        const value1 = parseInt("1");
-        const value2 = 1;
-        const sum = value1 + value2;
+      const value1 = parseInt("1");
+      const value2 = 1;
+      const sum = value1 + value2;
 
-        document.writeln(`<p>${sum}</p>`);
-        document.writeln(`<p>${parseInt("1.1")}</p>`);
-        document.writeln(`<p>${parseFloat("1.1")}</p>`);
-        document.writeln(`<p>${Number("1.1")}</p>`);
-        console.info(sum);
+      document.writeln(`<p>${sum}</p>`);
+      document.writeln(`<p>${parseInt("1.1")}</p>`);
+      document.writeln(`<p>${parseFloat("1.1")}</p>`);
+      document.writeln(`<p>${Number("1.1")}</p>`);
+      console.info(sum);
 
-        const a = 1;
-        const b = 1;
-        const total = a.toString() + b.toString();
-        document.writeln(`<p>${total}</p>`);
+      const a = 1;
+      const b = 1;
+      const total = a.toString() + b.toString();
+      document.writeln(`<p>${total}</p>`);
 
-        // NaN Non a Number
-        document.writeln(`<p>${parseInt("7.salah")}</p>`); // salah
-        document.writeln(`<p>${parseFloat("1.1fajar")}</p>`);
+      // NaN Non a Number
+      document.writeln(`<p>${parseInt("7.salah")}</p>`); // salah
+      document.writeln(`<p>${parseFloat("1.1fajar")}</p>`);
 
-        document.writeln(`<p>${Number("7.salah")}</p>`); // salah
-        document.writeln(`<p>${Number("1.1fajar")}</p>`);
+      document.writeln(`<p>${Number("7.salah")}</p>`); // salah
+      document.writeln(`<p>${Number("1.1fajar")}</p>`);
 
-        // Operasi pada NaN
-        const first = Number("salah"); //NaN
-        const totalNumber = first + 100;
-        document.writeln(`<p>${totalNumber}</p>`);
+      // Operasi pada NaN
+      const first = Number("salah"); //NaN
+      const totalNumber = first + 100;
+      document.writeln(`<p>${totalNumber}</p>`);
 
-        // isNan()
-        document.writeln(`<p>${isNan(first)}</p>`);
-        document.writeln(`<p>${isNan(100)}</p>`);
-        document.writeln(`<p>${isNan(NaN)}</p>`);
+      // isNan()
+      document.writeln(`<p>${isNan(first)}</p>`);
+      document.writeln(`<p>${isNan(100)}</p>`);
+      document.writeln(`<p>${isNan(NaN)}</p>`);
     </script>
-</body>
-
+  </body>
 </html>

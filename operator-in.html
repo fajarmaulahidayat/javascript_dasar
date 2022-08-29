@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Operator In</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <script>
-        const person = {
-            firstName: "Fajar",
-            lastName: "Maula Hidayat"
-        };
+      const person = {
+        firstName: "Fajar",
+        lastName: "Maula Hidayat",
+      };
 
-        if ("firstName" in person) {
-            alert(`Hello ${person.firstName}`);
-        } else {
-            alert("Hello");
-        }
+      if ("firstName" in person) {
+        alert(`Hello ${person.firstName}`);
+      } else {
+        alert("Hello");
+      }
 
-        const student = {
-            firstName: "Fajar",
-            middleName: undefined,
-            lastName: "Maula Hidayat"
-        };
+      const student = {
+        firstName: "Fajar",
+        middleName: undefined,
+        lastName: "Maula Hidayat",
+      };
 
-        if ("middleName" in student) {
-            alert(`Hello ${student.middleName}`);
-        } else {
-            alert("Hello");
-        }
+      if ("middleName" in student) {
+        alert(`Hello ${student.middleName}`);
+      } else {
+        alert("Hello");
+      }
 
-        const names = [null, "Fajar", null];
-        const result = 0 in names;
-        document.writeln(`<p>${result}</p>`);
+      const names = [null, "Fajar", null];
+      const result = 0 in names;
+      document.writeln(`<p>${result}</p>`);
     </script>
-</body>
-
+  </body>
 </html>

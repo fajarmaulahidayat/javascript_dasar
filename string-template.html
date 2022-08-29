@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>String Template</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <script>
-        const name = "Fajar Maula Hidayat";
-        const firstName = "Fajar";
-        const middleName = "Maula";
-        const lastName = "Hidayat";
+      const name = "Fajar Maula Hidayat";
+      const firstName = "Fajar";
+      const middleName = "Maula";
+      const lastName = "Hidayat";
 
-        const template = `Name : ${name}`;
-        const fullName = `Name : ${firstName} ${middleName} ${lastName}`;
+      const template = `Name : ${name}`;
+      const fullName = `Name : ${firstName} ${middleName} ${lastName}`;
 
-        console.info(template);
-        console.info(fullName);
+      console.info(template);
+      console.info(fullName);
 
-        // Expression string template
-        const nilai = 75;
-        const template2 = `Name : ${name}, Lulus : ${nilai > 70}`;
+      // Expression string template
+      const nilai = 75;
+      const template2 = `Name : ${name}, Lulus : ${nilai > 70}`;
 
-        console.info(template2);
+      console.info(template2);
 
-        // Multiline string
-        const multiLineString = `
+      // Multiline string
+      const multiLineString = `
         Nama saya adalah Fajar Maula Hidayat
         Hello World
         `;
 
-        document.writeln("<pre>");
-        document.writeln(multiLineString);
-        document.writeln("</pre>");
+      document.writeln("<pre>");
+      document.writeln(multiLineString);
+      document.writeln("</pre>");
     </script>
-</body>
-
+  </body>
 </html>

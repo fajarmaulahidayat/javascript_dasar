@@ -4,17 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Function</title>
+    <title>Masalah Variabel Var</title>
   </head>
-
   <body>
     <script>
-      function sayHelloWorld() {
-        document.writeln(`<p>Hello World</p>`);
+      // global scope
+      var i = 20;
+
+      for (var i = 0; i < 10; i++) {
+        // local scope
+        console.log(`Local ${i}`);
       }
 
-      sayHelloWorld();
-      sayHelloWorld();
+      console.log(`Global ${i}`);
     </script>
   </body>
 </html>
